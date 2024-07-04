@@ -1,0 +1,54 @@
+08-06-2024 23:42:37.31 - INFO - Started validation of input parameters...
+08-06-2024 23:42:37.31 - INFO - Completed validation of input parameters
+08-06-2024 23:42:37.31 - INFO - Started handling of duplicates... Method: "AUTO"
+08-06-2024 23:42:37.43 - DEBUG - Deletion of 74 duplicate(s) succeeded
+08-06-2024 23:42:37.43 - INFO - Completed handling of duplicates in 0.1185 seconds
+08-06-2024 23:42:37.43 - INFO - Started handling of missing values...
+08-06-2024 23:42:37.44 - INFO - Found a total of 13294 missing value(s)
+08-06-2024 23:42:37.47 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+08-06-2024 23:42:37.73 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+08-06-2024 23:42:47.61 - DEBUG - KNN imputation of 12502 value(s) succeeded for feature "car"
+08-06-2024 23:42:47.72 - DEBUG - KNN imputation of 107 value(s) succeeded for feature "Bar"
+08-06-2024 23:42:48.08 - DEBUG - KNN imputation of 217 value(s) succeeded for feature "CoffeeHouse"
+08-06-2024 23:42:48.38 - DEBUG - KNN imputation of 150 value(s) succeeded for feature "CarryAway"
+08-06-2024 23:42:48.61 - DEBUG - KNN imputation of 129 value(s) succeeded for feature "RestaurantLessThan20"
+08-06-2024 23:42:48.84 - DEBUG - KNN imputation of 189 value(s) succeeded for feature "Restaurant20To50"
+08-06-2024 23:42:48.84 - INFO - Completed handling of missing values in 11.408971 seconds
+08-06-2024 23:42:48.84 - INFO - Started handling of outliers... Method: "WINZ"
+08-06-2024 23:42:52.29 - DEBUG - Outlier imputation of 1463 value(s) succeeded for feature "toCoupon_GEQ25min"
+08-06-2024 23:42:58.06 - DEBUG - Outlier imputation of 2718 value(s) succeeded for feature "direction_same"
+08-06-2024 23:43:04.00 - DEBUG - Outlier imputation of 2718 value(s) succeeded for feature "direction_opp"
+08-06-2024 23:43:04.01 - INFO - Completed handling of outliers in 15.170668 seconds
+08-06-2024 23:43:04.01 - INFO - Started conversion of DATETIME features... Granularity: s
+08-06-2024 23:43:04.12 - INFO - Completed conversion of DATETIME features in 0.1031 seconds
+08-06-2024 23:43:04.12 - INFO - Started encoding categorical features... Method: "AUTO"
+08-06-2024 23:43:04.15 - DEBUG - Encoding to ONEHOT succeeded for feature "weather"
+08-06-2024 23:43:04.15 - DEBUG - Encoding skipped for feature "occupation"
+08-06-2024 23:43:04.17 - DEBUG - Encoding to ONEHOT succeeded for feature "coupon"
+08-06-2024 23:43:04.19 - DEBUG - Encoding to ONEHOT succeeded for feature "CoffeeHouse"
+08-06-2024 23:43:04.22 - DEBUG - Encoding to ONEHOT succeeded for feature "education"
+08-06-2024 23:43:04.23 - DEBUG - Encoding to ONEHOT succeeded for feature "destination"
+08-06-2024 23:43:04.25 - DEBUG - Encoding to ONEHOT succeeded for feature "RestaurantLessThan20"
+08-06-2024 23:43:04.27 - DEBUG - Encoding to ONEHOT succeeded for feature "income"
+08-06-2024 23:43:04.28 - DEBUG - Encoding to ONEHOT succeeded for feature "Restaurant20To50"
+08-06-2024 23:43:04.29 - DEBUG - Encoding to ONEHOT succeeded for feature "CarryAway"
+08-06-2024 23:43:04.31 - DEBUG - Encoding to ONEHOT succeeded for feature "age"
+08-06-2024 23:43:04.32 - DEBUG - Encoding to ONEHOT succeeded for feature "Bar"
+08-06-2024 23:43:04.34 - DEBUG - Encoding to ONEHOT succeeded for feature "maritalStatus"
+08-06-2024 23:43:04.35 - DEBUG - Encoding to ONEHOT succeeded for feature "expiration"
+08-06-2024 23:43:04.36 - DEBUG - Encoding to ONEHOT succeeded for feature "time"
+08-06-2024 23:43:04.37 - DEBUG - Encoding to ONEHOT succeeded for feature "gender"
+08-06-2024 23:43:04.38 - DEBUG - Encoding to ONEHOT succeeded for feature "car"
+08-06-2024 23:43:04.39 - DEBUG - Encoding to ONEHOT succeeded for feature "passanger"
+08-06-2024 23:43:04.39 - INFO - Completed encoding of categorical features in 0.266308 seconds
+08-06-2024 23:43:04.39 - INFO - Started feature type conversion...
+08-06-2024 23:43:04.39 - DEBUG - Conversion to type INT succeeded for feature "temperature"
+08-06-2024 23:43:04.39 - DEBUG - Conversion to type INT succeeded for feature "has_children"
+08-06-2024 23:43:04.39 - DEBUG - Conversion to type INT succeeded for feature "toCoupon_GEQ5min"
+08-06-2024 23:43:04.40 - DEBUG - Conversion to type INT succeeded for feature "toCoupon_GEQ15min"
+08-06-2024 23:43:04.40 - DEBUG - Conversion to type INT succeeded for feature "toCoupon_GEQ25min"
+08-06-2024 23:43:04.40 - DEBUG - Conversion to type INT succeeded for feature "direction_same"
+08-06-2024 23:43:04.40 - DEBUG - Conversion to type INT succeeded for feature "direction_opp"
+08-06-2024 23:43:04.40 - DEBUG - Conversion to type INT succeeded for feature "Y"
+08-06-2024 23:43:04.40 - INFO - Completed feature type conversion for 8 feature(s) in 0.016898 seconds
+08-06-2024 23:43:04.41 - INFO - AutoClean process completed in 27.113651 seconds

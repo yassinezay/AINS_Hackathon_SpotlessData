@@ -1,0 +1,26 @@
+
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #5a5a5a !important;
+}
+
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.card {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.my-4 {
+    margin: 20px 0;
+}
